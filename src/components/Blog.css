@@ -1,0 +1,43 @@
+.blog-header{
+    margin:20px;
+}
+
+.blog-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.blog-item{
+    padding: 20px;
+}
+
+.blog-title{
+    font-size: 24px;
+    font-family: "Manrope";
+  font-style: normal;
+  font-weight: 550;
+}
+
+.blog-description{
+    font-size: 16px;
+    font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media (max-width: 450px){
+    .blog-title{
+        font-size: 16px!important;
+        font-family: "Manrope";
+      font-style: normal;
+      font-weight: 550;
+    }
+    .blog-description{
+        font-size: 14px!important;
+        font-family: "Manrope";
+      font-style: normal;
+      font-weight: 400;
+    }
+}
